@@ -19,13 +19,11 @@ def primo(numero):
     else:
         return False
 
-#par
-def par(numero):
-    if numero%2 == 0:
-        return True
-    else:
-        return False
-
 #par2
-def par2(numero):
+def par(numero):
     True if numero%2 == 0 else False
+
+#potecia
+def potencia_quadrada(numero):
+    return numero**2
+

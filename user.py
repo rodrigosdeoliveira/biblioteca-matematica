@@ -16,5 +16,5 @@ else:
 
 print("par" if m.par(numero) else "ímpar")
 
-print("par" if m.par2(numero) else "ímpar")
+print("Quadrado: ", m.potencia_quadrada(numero))
 
