@@ -1,10 +1,9 @@
 #fatorial
 def fatorial(numero):
-    fat = 1
-    while numero > 0:
-        fat = fat * numero
-        numero = numero - 1
-    return fat
+    if numero == 0 or numero == 1:
+        return 1
+    else:
+        return numero*fatorial(numero-1)
 
 
 #primo
