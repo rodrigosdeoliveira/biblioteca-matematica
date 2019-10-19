@@ -4,5 +4,8 @@ numero = int(input("informe o número "))
 resposta = m.fatorial(numero)
 print(resposta)
 
-resposta = m.primo(numero)
+if m.primo(numero):
+    print("É primo!!!")
+else:
+    print("Não é primo")
 
