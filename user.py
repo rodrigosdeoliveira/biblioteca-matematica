@@ -9,3 +9,12 @@ if m.primo(numero):
 else:
     print("Não é primo")
 
+if m.par(numero):
+    print("É par")
+else:
+    print("É ímpar")
+
+print("par" if m.par(numero) else "ímpar")
+
+print("par" if m.par2(numero) else "ímpar")
+
